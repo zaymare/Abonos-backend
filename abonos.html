@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Módulo de Abonos</title>
+</head>
+<body>
+    <h1>Abonos</h1>
+    <div class="abonos">
+        <h2>Listado de Abonos</h2>
+        <table id="abono-tabla">
+            <thead>
+                <tr>
+                    <th>Cliente</th>
+                    <th>Monto</th>
+                    <th>Estado</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aquí se mostrarán los abonos -->
+            </tbody>
+        </table>
+    </div>
+    <div class="abonos">
+        <h2>Registrar Abono</h2>
+        <form id="abono-form">
+            <input type="text" id="nombre" placeholder="Nombre del Cliente" required>
+            <input type="number" id="monto" placeholder="Monto" required>
+            <button type="submit">Registrar Abono</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
